@@ -72,3 +72,66 @@ LIST
 List<[TIPO]>[NOME] = new List<[TIPO]>(){[VALOR],[VALOR]}
 
 ```
+
+## Laço de Repetição
+
+```js
+
+foreach(int i in [ARRAY]){
+  //script
+}
+
+for(int i = 0; i < [ARRAY].length; i++){
+  //script
+}
+
+```
+
+## Classe
+
+```js
+
+Public class [NOME]{
+  //script
+}
+
+```
+>[!NOTE]
+>Para chamar metodos public de outra classe:
+>[CLASS] [NOME]
+
+## Metodo Main
+
+<p align="justify">Desempenha o ponto de entrada em um programa em C#, assinatura padrão do método:</p>
+
+```js
+
+static void Main(string[] args){
+  //script
+}
+
+```
+
+## Criação do projeto
+
+```bash
+
+dotnet new [NOME]
+
+```
+
+## Compilar projeto
+
+```bash
+
+dotnet build
+
+```
+
+## Rodar Projeto
+
+```bash
+
+dotnet run
+
+```
